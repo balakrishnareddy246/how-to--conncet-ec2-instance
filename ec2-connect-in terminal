@@ -1,0 +1,18 @@
+#how to connect the amazon ec2 intances they are some steps :
+#Before we starting the any we need to give the ssh client and server proces 
+#apps& features and optional features and add odia supelemental Fonts 
+#The steps :1 first create instance wiithy os
+#create key pair value
+#download .pem flie
+#localte file where the installed 
+go to the  the path and in search bar you opne any terminal
+we need to give permission in that permission appy the som commans
+the commands are 
+$path = ".\test.pem"
+# Reset to remove explicit permissions
+icacls.exe $path /reset
+# Give current user explicit read-permission
+icacls.exe $path /GRANT:R "$($env:USERNAME):(R)"
+# Disable inheritance and remove inherited permissions
+icacls.exe $path /inheritance:r
+proceed 
