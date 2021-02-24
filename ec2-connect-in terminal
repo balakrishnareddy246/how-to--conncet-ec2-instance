@@ -16,3 +16,7 @@ icacls.exe $path /GRANT:R "$($env:USERNAME):(R)"
 # Disable inheritance and remove inherited permissions
 icacls.exe $path /inheritance:r
 proceed 
+
+hot to install minikube and kubectl and docker 
+
+https://www.radishlogic.com/kubernetes/running-minikube-in-aws-ec2-ubuntu/
